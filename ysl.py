@@ -34,11 +34,10 @@ while page<99:
         pics_url = ''
         for pics in list['pics']:
             pics_url = pics_url + "http:" + str(pics)+ " "
-            #print (pics_pres)
         pics_urls = pics_url
         #print(pics_urls)
         #print list['displayUserNick']
-        # print list['auctionSku']
+        #print list['auctionSku']
         #print list['cmsSource']
         #print list['rateDate']
         #print list['sellerId']
